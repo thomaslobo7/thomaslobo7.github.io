@@ -1,6 +1,6 @@
 $default: #f9f9ff;
-$primary: $primary-color;
-$success: #4cd3e3;
+$primary: #df003a;
+$success: #73d61c;
 $info   : #38a4ff;
 $warning: #f4e700;
 $danger: #f44a40;
@@ -14,7 +14,7 @@ $disable: (#222222, .3);
 	margin-bottom: 30px;
 	font-size: 24px;
 }
-b,sup, sub, u, del {
+b, i, sup, sub, u, del {
 	color: $primary;
 }
 h1 {
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 	outline: none;
 	line-height: 40px;
 	padding: 0 30px;
-	font-size: .8em;
+	font-size: 1em;
 	text-align: center;
 	text-decoration: none;
 	font-weight: 500;
@@ -259,7 +259,9 @@ h1, h2, h3, h4, h5, h6 {
 	border-left: 2px solid $primary;
 }
 .progress-table-wrap {
-	overflow-x: scroll;
+	@include media-breakpoint-down(sm) {
+		overflow-x: scroll;
+	}
 }
 .progress-table {
 	background: #f9f9ff;
