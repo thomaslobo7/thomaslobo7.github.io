@@ -25,9 +25,6 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8;
   color: rgba(0, 0, 0, 0.5);
-  max-width: 1000px;
-  width: 100%;
-  margin: 0 auto;
 }
 
 ::-moz-selection {
@@ -544,7 +541,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-main {
   position: relative;
-  margin-bottom: 300px;
   background: #ffffff;
   z-index: 2;
 }
