@@ -591,11 +591,11 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   transition: .3s all ease;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .probootstrap-section-half .probootstrap-image, .probootstrap-section-half .probootstrap-text {
-    height: inherit;
     padding: 2em 0;
-    width: 100%;
+    max-width:100%;
+    max-height:100%;
   }
 }
 
@@ -605,7 +605,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .probootstrap-section-half .probootstrap-image {
     height: 400px;
     padding: 0;
@@ -630,7 +630,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   width: 48%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .probootstrap-section-half:hover .probootstrap-image, .probootstrap-section-half:focus .probootstrap-image {
     width: 100%;
   }
@@ -652,7 +652,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   order: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .probootstrap-section-half.probootstrap-reverse .probootstrap-image {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
